@@ -1,45 +1,53 @@
-# Frontend Mentor - Todo app solution
+# Frontend Mentor - Intro component with sign up form solution
 
-This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+As most of my work, this solution is being constantly updated as I learn new things and find better solutions for my problems :)
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [Screenshots](#screenshots)
-    -   [The challenge](#the-challenge)
-    -   [Built with](#built-with)
-    -   [Links](#links)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+
+- [Author](#author)
 
 ## Overview
-
-### Screenshots
-
-![](./screenshot-light.png)
-![](./screenshot-dark.png)
 
 ### The challenge
 
 Users should be able to:
 
--   **(Extra)** Register and login with username and password
--   **(Extra)** Maintain user session on reload
--   View the optimal layout for the app depending on their device's screen size
--   See hover states for all interactive elements on the page
--   Add new todos to the list
--   Mark todos as complete
--   Delete todos from the list
--   Filter by all/active/complete todos
--   Clear all completed todos
--   Toggle light and dark mode
--   **(Extra)** Maintain theme preference on reload
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Receive an error message when the `form` is submitted if:
+  - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
-### Built with
+### Screenshot
 
--   Front-end: React.
--   Back-end: Express and MongoDB.
+![](./screenshots/signup-form-mobile.png)
+![](./screenshots/signup-form-desktop.png)
 
 ### Links
 
--   Live Site URL: [Netlify](https://beautiful-pavlova-f78d84.netlify.app/)
--   API URL: [Render](https://todo-app-main.onrender.com)
--   Database hosting: [MongoDB Atlas](https://www.mongodb.com/es/atlas/database)
+[Solution URL](https://fluffykas.github.io/signup-form-component/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Javascript
+
+## Author
+
+- Frontend Mentor - [@FluffyKas](https://www.frontendmentor.io/profile/FluffyKas)
+
